@@ -1,49 +1,44 @@
+@import url('https://fonts.cdnfonts.com/css/source-sans-pro');
+
 *{
-    font-family: "Source sans pro", sans-serif; margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;                                              
 }
-a{
+a {
     text-decoration: none;
     color: black;
-    size: 30px;
+    font-size: 32px;
+}
+
+ul {
     display: flex;
-    flex-direction: column;
-    padding: 20px;
+    list-style-type: none;
+    margin-top: 30px;
 }
-
-button{
-    height: 30px;
-    width: 60px;
-    color: white;
-    background-color: #B6151B;
-    border: none;
-    transition: background-color 0.3s ease-in-out;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 20px;
+li{
+    margin: 50px 100px 50px 100px;
 }
-
-button:hover{
-    cursor: pointer;
-    background-color: #76070B;
-    animation-duration: 3s;
-}
-
-p{
-    margin: 30px auto 30px auto;
-}
-
-h1{
-    margin: auto
-}
-
 nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: aqua;
+    background-color: #F5F5F5;
 }
 
-img{
-    height: auto;
-    width: 100vh;
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.logo{
+width: auto;
+height: 100px;
+margin-top: 30px;
+position: absolute;
+transform: translateY(-50%);
+}
+
+.navigationbar{
+    display: flex;
+    justify-content: center;
 }
