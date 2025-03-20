@@ -66,3 +66,23 @@ p{
 input {
     width: 100%;
   }
+
+button{
+    color: white;
+    background-color: #b6151b;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 50px;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
