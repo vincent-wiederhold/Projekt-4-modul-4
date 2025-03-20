@@ -14,7 +14,6 @@ a {
 ul {
     display: flex;
     list-style-type: none;
-    margin-top: 30px;
 }
 li{
     margin: 50px 100px 50px 100px;
@@ -31,14 +30,19 @@ nav{
 }
 
 .logo{
-width: auto;
 height: 100px;
-margin-top: 30px;
 position: absolute;
 transform: translateY(-50%);
+left: 20px;
+top: 50%;
 }
 
 .navigationbar{
     display: flex;
     justify-content: center;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
 }
