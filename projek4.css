@@ -40,10 +40,6 @@ nav{
     top: 50%;
 }
 
-.navigationbar{
-    display: flex;
-    justify-content: center;
-}
 
 .hero-image {
     width: 100%;
@@ -108,4 +104,15 @@ button{
   .red-text {
     color: #b6151b;
     white-space: pre;
+  }
+
+
+  @media screen and (max-width: 480px) {
+    
+    .red-text {
+        color: #1548b6;
+        white-space: pre;
+      }
+
+
   }
