@@ -2,9 +2,12 @@
 
 *{
     font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;                                              
 }
+
+
 a {
     text-decoration: none;
     color: black;
@@ -64,8 +67,23 @@ p{
 
 }
 input {
-    width: 100%;
+    width: 40%;
   }
+
+
+.formular {
+    display: flex;
+    
+    justify-content: flex-end;
+    margin-left: 20px;
+}
+
+.form-tilmeld {
+    display: flex;
+    flex-direction: column;
+    
+}
+
 
 button{
     color: white;
@@ -85,4 +103,9 @@ button{
   .right {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
+  }
+
+  .red-text {
+    color: #b6151b;
+    white-space: pre;
   }
