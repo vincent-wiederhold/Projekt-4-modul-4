@@ -52,7 +52,6 @@ h1{
     font-weight: bold;
     display: flex;
     justify-content: center;
-    padding-top: 50px;
 }
 
 p{
@@ -94,27 +93,26 @@ input {
 }
 
 .form-text-side {
-    margin: 50px;
+    margin: 100px;
 }
 
 .formular {
     display: flex;
     flex-direction: column;
-    margin: 0 50px 20px 0px;
+    margin-bottom: 20px;
 }
 
 
 .form-tilmeld {
     display: flex;
     flex-direction: column;
-    margin: 50px;
+    margin: 100px;
 }
 
 .button-form {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 50px 20px 0px;
 }
 
 
