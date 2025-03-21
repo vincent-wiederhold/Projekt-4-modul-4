@@ -74,16 +74,26 @@ p{
 }
 
 input {
-    width: 40%;
+    width: 300px;
   }
 
 
 .formular {
+    display: flex;
+    flex-direction: column;
+    
+
+    
+    
     margin: 0 20px 20px 20px;
 }
 
+
 .form-tilmeld {
     background-color: #1548b6;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 button{
