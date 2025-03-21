@@ -160,8 +160,43 @@ background-color: #76070B;
     li{
         margin: 10px 0;
     }
+    
     .hero-image{
         height: 45vh;
     }
+
+
+    button{
+        color: white;
+        background-color: #b6151b;
+        height: 40px;
+        width: 175px;
+        border: none;
+        border-radius: 20px;
+        transition: 0.35s ease-in-out;
+        display: block;
+        margin: 30px auto;
+    }
+
+    .formular {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin: 0 20px 20px 20px;
+    }
+    
+    .form-tilmeld {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    button:hover{
+    background-color: #76070B;
+    }
+    
+    h1{
+    text-align: center;
+    }
+    
 
   }
