@@ -64,6 +64,15 @@ p{
 
 }
 
+.p1{
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #76070B;
+}
+
 input {
     width: 40%;
   }
@@ -142,4 +151,17 @@ background-color: #76070B;
         display: flex;
         flex-direction: column;
     }
+
+    ul{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    li{
+        margin: 10px 0;
+    }
+    .hero-image{
+        height: 45vh;
+    }
+
   }
