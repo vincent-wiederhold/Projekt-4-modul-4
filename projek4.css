@@ -114,6 +114,23 @@ background-color: #76070B;
   }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   @media screen and (max-width: 480px) {
     
     .red-text {
@@ -121,5 +138,11 @@ background-color: #76070B;
         white-space: pre;
       }
 
-
+      #navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
   }
