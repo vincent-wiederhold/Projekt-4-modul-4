@@ -80,7 +80,7 @@ input {
 
 .formular {
     display: flex;
-    justify-content: flex-end;
+    align-items: flex-end;
     flex-direction: column;
     margin: 0 20px 20px 20px;
 }
@@ -88,7 +88,8 @@ input {
 .form-tilmeld {
     display: flex;
     flex-direction: column;
-    
+    justify-content: flex-end;
+    background-color: #1548b6;
 }
 
 button{
