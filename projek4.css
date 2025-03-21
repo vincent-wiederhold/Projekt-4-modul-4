@@ -80,15 +80,34 @@ input {
     
 }
 
-
 button{
+    color: white;
+    background-color: #b6151b;
+    height: 40px;
+    width: 175px;
+    border: none;
+    border-radius: 20px;
+    transition: 0.35s ease-in-out;
+}
+
+button:hover{
+background-color: #76070B;
+}
+
+/*
+button {
     color: white;
     background-color: #b6151b;
     height: 50px;
     width: 150px;
     border: none;
     border-radius: 50px;
+    transition: background-color 2s ease-in-out;
 }
+
+button:hover {
+    background-color: #76070B;
+}*/
 
 .arrow {
     border: solid white;
