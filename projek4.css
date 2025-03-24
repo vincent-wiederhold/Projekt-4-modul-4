@@ -126,10 +126,17 @@ button{
     transition: 0.35s ease-in-out;
 }
 
+
 button:hover{
     background-color: #76070B;
 }
 
+/*centrer knappen*/
+.alignbutton
+{
+    display: flex;
+    justify-content: center;
+}
 
 .arrow {
     border: solid white;
