@@ -148,6 +148,11 @@ button:hover{
     white-space: pre;
 }
 
+.hvid{
+    height: 20px;
+    width: auto;
+    background-color: #FFFF00;
+}
 
 
 
