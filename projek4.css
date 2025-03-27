@@ -32,11 +32,12 @@ a {
     display: flex;
     justify-content: center;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
 }
 
 .mindrelogo{
- height: 50px;
+ height: 100px;
  margin: 20px auto auto 50px;
 }
 
