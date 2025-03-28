@@ -290,11 +290,23 @@ background-color: #5119f9;
     background-color: #1548b6;
 }
 
-footer{
-    color: whit;
+footer {
+    color: white;
     height: 200px;
-    background-color: black;
+    background-color: #3E3E3E;
 }
+
+.følg-os {
+    font-style: italic;
+    font-weight: 900;
+
+    
+}
+
+.sociale-medier {
+    padding: 50px;
+}
+
 
 
 .hvidtekst{
