@@ -39,6 +39,9 @@ a {
     align-items: center;
     width: 100%;
     position: fixed;
+    height: 200px;
+    background-color: white;
+    z-index: 3;
 }
 
 .mindrelogo{
