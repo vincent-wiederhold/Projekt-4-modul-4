@@ -47,10 +47,7 @@ button{
     font-size: 32px;
     color: white;
     background-color: #ed1c24;
-    height: auto;
-    width: auto;
     padding: 10px 20px;
-    margin-right: 50px;
     border: none;
     border-radius: 50px;
     align-items: center;
@@ -80,8 +77,6 @@ p{
     font-size: 20px;
     font-weight: 400;
     text-align: center;
-    margin: 20px auto 50px auto;
-
 }
 
 .p1{
@@ -106,13 +101,13 @@ input {
     font-weight: 600;
   }
 
-.form-section {
+.section {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.form-text-side {
+.text-side {
     margin: 100px;
 }
 
@@ -135,8 +130,7 @@ input {
     align-items: center;
 }
 
-.alignbutton
-{
+.alignbutton {
     display: flex;
     justify-content: center;
 }
@@ -146,6 +140,7 @@ input {
     border-width: 0 4px 4px 0;
     display: inline-block;
     padding: 6px;
+    margin-bottom: 1px;
 }
 
 .right {
@@ -158,20 +153,19 @@ input {
     white-space: pre;
 }
 
-.hvid{
+.hvid {
     height: 20px;
     width: auto;
     background-color: #FFFFFF;
 }
 
-.paragraph{
+.paragraph {
     text-align: left;
     width: 50%;
     margin: 10px auto 20px auto;
 }
 
-.tilmeldingstekst
-{
+.tilmeldingstekst {
     text-align: left;
 }
 
@@ -184,6 +178,7 @@ input {
     height: 200px;
     width: auto;
 }
+
 .flexdirectionrow{
     display: flex;
     flex-direction: row;
@@ -194,8 +189,29 @@ input {
     display:flex ;
     flex-direction: row;
     align-items: center;
-    margin-left: 20px;
+    justify-content: center;
 }
+
+.ruteknap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .tekstforan{
     z-index: 2;
     position: relative;
@@ -208,9 +224,17 @@ input {
     position: absolute;
     padding: 40px;
 }
+
+
 .leftalign{
     text-align: left;
 }
+
+
+
+
+
+
 
 
 
