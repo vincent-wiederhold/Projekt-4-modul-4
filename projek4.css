@@ -302,25 +302,60 @@ background-color: #5119f9;
 
 footer {
     color: white;
-    height: 200px;
     background-color: #3E3E3E;
 }
+
+.footer-section {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.kontakt-ikoner {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    
+}
+
+.telefon, .email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    justify-content: flex-start;
+
+}
+
+footer .p {
+
+}
+
 
 .følg-os {
     font-style: italic;
     font-weight: 900;
-
-    
 }
 
 .sociale-medier {
     padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 250px;
+}
+
+.sociale-medier-ikoner {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }
 
 
 .icons {
     height: 50px;
     width: 50px;
+    margin: 10px;
 }
 
 
