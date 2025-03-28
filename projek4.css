@@ -163,8 +163,9 @@ input {
 }
 
 .paragraph{
-    margin: 20%;
     text-align: left;
+    width: 50%;
+    margin: 10px auto 20px auto;
 }
 
 .tilmeldingstekst
