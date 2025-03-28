@@ -18,7 +18,8 @@ a {
 .billede1 {
     width: 1000px;
     margin-left: 250px;
-    z-index: 1;
+    position: absolute;
+    z-index: -1;
 }
 
 .links {
@@ -198,8 +199,18 @@ input {
 .tekstforan{
     z-index: 2;
     position: relative;
+    color: white;
+    height: auto;
+    width: 720px;
+    background-color: #76070B;
+    margin-left: 800px;
+    margin-top: 200px;
+    position: absolute;
+    padding: 40px;
 }
-
+.leftalign{
+    text-align: left;
+}
 
 
 
