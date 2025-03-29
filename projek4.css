@@ -7,6 +7,9 @@
     padding: 0;                                              
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 a {
     text-decoration: none;
@@ -14,12 +17,11 @@ a {
     font-size: 32px;
 }
 
-.billede1 {
-    width: 1000px;
-    margin-left: 250px;
-    position: absolute;
-    z-index: -1;
-}
+
+
+
+/*Navbar*/
+
 
 .links {
     display: flex;
@@ -39,15 +41,22 @@ a {
     align-items: center;
     width: 100%;
     position: fixed;
-    height: 200px;
     background-color: white;
     z-index: 3;
 }
 
+.navbarknap {
+    margin-right: 50px;
+}
+
 .mindrelogo{
- height: 100px;
+ height: 75px;
  margin: 20px auto 20px 50px;
 }
+
+
+
+/*Knap*/
 
 
 button{
@@ -62,10 +71,14 @@ button{
 }
 
 
-button:hover{
+button:hover, a.button:hover {
     background-color: #bf0f16;
     cursor: pointer;
 }
+
+
+
+
 
 .hero-image {
     width: 100%;
@@ -240,9 +253,21 @@ a.button {
 
 
 
+/*Faktaboks*/
 
+.factsection {
+    height: 700px;
+    display: flex;
+    /*justify-content: center;*/
+    background-color: #F5F5F5;
+}
 
-
+.faktabillede {
+    width: 800px;
+    position: absolute;
+    z-index: 1;
+    margin: 100px 0px 100px 100px;
+}
 
 
 .tekstforan{
@@ -253,7 +278,8 @@ a.button {
     width: 720px;
     background-color: #ed1c24;
     margin-left: 800px;
-    margin-top: 200px;
+    margin-top: 150px;
+    margin-right: 100px;
     position: absolute;
     padding: 60px 130px 60px 130px;
 }
@@ -263,17 +289,16 @@ a.button {
     text-align: left;
 }
 
+
+
+
+/*
 .firstsection{
 height: 800px;
 background-color: #5119f9;
-}
+}*/
 
-.secondsection {
-    height: 800px;
-    display: flex;
-    justify-content: center;
-    background-color: #76070B;
-}
+
 
 .thirdsection {
     height: 800px;
@@ -313,8 +338,13 @@ footer {
 .kontakt-ikoner {
     display: flex;
     flex-direction: column;
-    padding: 50px;
-    
+    padding: 75px 50px 50px 50px;
+}
+
+.kontakt-ikoner img {
+    height: 25px;
+    width: 25px;
+    margin: 10px;
 }
 
 .telefon, .email {
@@ -322,19 +352,19 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
     justify-content: flex-start;
 
 }
-
+/*
 footer .p {
 
-}
+}*/
 
 
 .følg-os {
     font-style: italic;
     font-weight: 900;
+    margin-bottom: 20px;
 }
 
 .sociale-medier {
@@ -348,11 +378,10 @@ footer .p {
 .sociale-medier-ikoner {
     display: flex;
     justify-content: center;
-    margin: 20px;
 }
 
 
-.icons {
+.sociale-medier-ikoner img {
     height: 50px;
     width: 50px;
     margin: 10px;
