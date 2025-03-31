@@ -61,6 +61,18 @@ button{
     transition: 0.35s ease-in-out;
 }
 
+.button__navbar{
+    font-size: 32px;
+    color: white;
+    background-color: #ed1c24;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    align-items: center;
+    transition: 0.35s ease-in-out;
+    margin-right: 20px;
+}
+
 
 button:hover{
     background-color: #bf0f16;
