@@ -120,12 +120,27 @@ p{
     color: #76070B;
 }
 
+/*Tilmelding*/
+
+.anchor {
+    position: relative;
+    top: -150px;
+}
+
+.tilmeldingssektion {
+    background-color: white;
+}
+
+.section-header {
+    margin-top: 50px;
+}
+
 input {
     width: 400px;
-    padding: 10px;
+    padding: 12px;
     border-radius: 10px;
-    border: none;
     background-color: #F5F5F5;
+    border: solid 2px #F5F5F5;
   }
 
   label {
@@ -162,10 +177,17 @@ input {
     align-items: center;
 }
 
+.formular input:hover {
+    border: solid 2px #adadad;
+    box-sizing: border-box;
+    transition: 0.35s ease-in-out;
+}
+
+/*
 .alignbutton {
     display: flex;
     justify-content: center;
-}
+}*/
 
 .arrow {
     border: solid white;
@@ -355,10 +377,7 @@ background-color: #5119f9;
     background-color: blueviolet;
 }
 
-.sixthsection {
-    height: 800px;
-    background-color: #76070B;
-}
+
 
 .seventhsection{
     height: 400px;
