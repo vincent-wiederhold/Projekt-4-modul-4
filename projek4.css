@@ -390,6 +390,9 @@ padding-bottom: 75px;
     width: auto;
 }
 
+
+/*Footer*/
+
 footer {
     color: white;
     background-color: #3E3E3E;
@@ -397,13 +400,14 @@ footer {
 
 .footer-section {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .kontakt-ikoner {
     display: flex;
     flex-direction: column;
     padding: 75px 50px 50px 50px;
+    width: 400px;
 }
 
 .kontakt-ikoner img {
@@ -429,10 +433,10 @@ footer {
 
 .sociale-medier {
     padding: 50px;
+    width: 400px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 250px;
 }
 
 .sociale-medier-ikoner {
@@ -445,6 +449,20 @@ footer {
     height: 50px;
     width: 50px;
     margin: 10px;
+}
+
+
+.footer-right {
+    padding: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.footer-logo {
+    height: 75px;
+    
 }
 
 
