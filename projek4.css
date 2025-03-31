@@ -253,7 +253,6 @@ a.button {
 }
 
 
-/*test*/
 #card{
     list-style: none;
     display: flex;
@@ -277,20 +276,15 @@ a.button {
     color: white;
     display: flex;
     justify-content: center;
-    
+
 }
 
 
 
-
-
-
-
-
-
-
-
-
+.Løbforsindetsection{
+height: 800px;
+background-color: #F5F5F5;
+}
 
 
 /*Faktaboks*/
@@ -299,7 +293,7 @@ a.button {
     height: 700px;
     display: flex;
     /*justify-content: center;*/
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
 }
 
 .faktabillede {
@@ -330,39 +324,29 @@ a.button {
 }
 
 
-
-
-/*
-.firstsection{
-height: 800px;
-background-color: #5119f9;
-}*/
-
-
-
-.thirdsection {
+.cardsection {
     height: 800px;
-    background-color: aqua;
+    background-color: #F5F5F5;
 }
 
-.fourthsection {
+.rutesection{
     height: 800px;
-    background-color: antiquewhite;
+    background-color: #FFFFFF;
 }
 
-.fifthssection{
+.slideshowsection{
     height: 800px;
-    background-color: blueviolet;
+    background-color: #F5F5F5;
 }
 
 .sixthsection {
     height: 800px;
-    background-color: #76070B;
+    background-color: #FFFFFF;
 }
 
 .seventhsection{
     height: 400px;
-    background-color: #1548b6;
+    background-color: #F5F5F5;
 }
 
 footer {
