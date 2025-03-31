@@ -135,7 +135,7 @@ p{
     margin-top: 50px;
 }
 
-input {
+.formular input {
     width: 400px;
     padding: 12px;
     border-radius: 10px;
@@ -178,10 +178,29 @@ input {
 }
 
 .formular input:hover {
-    border: solid 2px #adadad;
+    border: solid 2px #a3a3a3;
     box-sizing: border-box;
-    transition: 0.35s ease-in-out;
+    transition: 0.1s ease-in-out;
 }
+
+
+/* Distance (Sebastian)*/
+
+#distance {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#distance input {
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+.formular-tjek {
+    margin-bottom: 20px;
+}
+
 
 /*
 .alignbutton {
