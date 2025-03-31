@@ -252,7 +252,9 @@ a.button {
     height: 800px;
 }
 
-
+#card li a {
+    color: pink;
+}
 
 
 
