@@ -252,9 +252,34 @@ a.button {
     height: 800px;
 }
 
-#card li a {
-    color: pink;
+
+/*test*/
+#card{
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
+
+#card li {
+    border-radius: 10px;
+    background-color: #ed1c24;
+    margin: 20px 50px 20px 50px;
+    padding: 40px;
+}
+.cardheader {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 10px 0;
+}
+
+.cardbrødtekst{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
 
 
 

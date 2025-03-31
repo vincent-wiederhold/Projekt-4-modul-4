@@ -1,14 +1,10 @@
-const menuItems = [
-    { name: 'Home', link: 'index.html' },
-    { name: 'About', link: 'about.html' },
-    { name: 'Services', link: 'services.html' },
-    { name: 'Contact', link: 'contact.html' }
+const cardItems = [
+    { brødtekst: 'Pris:149.kr, Dato & tid 2. august kl. 10, Sted Odense, Engen', h1: 'Pratiske informationer' },
+    { brødtekst: 'T-shirt, goodiebag, frisk luft og bevægelse', h1: 'Du får' },
 ];
 
-// Get the menu container
-const menuContainer = document.getElementById('card');
+const cardContainer = document.getElementById('card');
 
-// Loop through the menu items and create links using a for loop
-for (let i = 0; i < menuItems.length; i++) {
-    menuContainer.innerHTML += '<li><a href="' + menuItems[i].link + '">' + menuItems[i].name + '</a></li>';
+for (let i = 0; i < cardItems.length; i++) {
+    cardContainer.innerHTML += '<li><h1 class="cardheader">' + cardItems[i].h1 + '</h1><p class="cardbrødtekst">' + cardItems[i].brødtekst + '</p></li>';
 }
