@@ -92,11 +92,8 @@ button:hover, a.button:hover {
 
 
 
-.hero-image {
-    width: 100%;
-    height: 70.5vh;
-    object-fit: cover;
-}
+
+
 
 h1{
     font-size: 32px;
@@ -129,10 +126,8 @@ p{
 
 .tilmeldingssektion {
     background-color: white;
-}
-
-.section-header {
-    margin-top: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 input {
@@ -183,11 +178,10 @@ input {
     transition: 0.35s ease-in-out;
 }
 
-/*
 .alignbutton {
     display: flex;
     justify-content: center;
-}*/
+}
 
 .arrow {
     border: solid white;
@@ -218,6 +212,7 @@ input {
     width: 50%;
     margin: 10px auto 20px auto;
 }
+
 
 .tilmeldingstekst {
     text-align: left;
@@ -311,6 +306,24 @@ padding-bottom: 75px;
 }
 
 
+.hero-image {
+    width: 100%;
+    height: 70.5vh;
+    object-fit: cover;
+    z-index: 1;
+}
+.tekstforanherobanner{
+    z-index: 2;
+    color: white;
+    height: auto;
+    width: 720px;
+    background-color: #ed1c24;
+    margin-left: 575px;
+    margin-top: 150px;
+    position: absolute;
+    padding: 60px 130px 60px 130px;
+}
+
 /*Faktaboks*/
 
 .factsection {
@@ -327,17 +340,14 @@ padding-bottom: 75px;
     margin: 75px 0px 75px 100px;
 }
 
-
-.tekstforan{
+.tekstforanfaktabillede{
     z-index: 2;
-    position: relative;
     color: white;
     height: auto;
     width: 720px;
     background-color: #ed1c24;
-    margin-left: 800px;
+    margin-left: 575px;
     margin-top: 150px;
-    margin-right: 100px;
     position: absolute;
     padding: 60px 130px 60px 130px;
 }
