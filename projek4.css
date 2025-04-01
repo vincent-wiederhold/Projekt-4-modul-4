@@ -318,16 +318,12 @@ a.button {
 
 }
 
-
-
-
 .loebforsindetsection{
 height: auto;
 background-color: #F5F5F5;
 padding-top: 75px;
 padding-bottom: 75px;
 }
-
 
 .hero-image {
     width: 100%;
@@ -505,7 +501,7 @@ footer {
 }
 
   /*Andreas*/
-.slideshow-wrapper {
+  .slideshow-wrapper {
     display: flex;
     justify-content: center; 
     flex-direction: row;
@@ -545,4 +541,44 @@ footer {
     float: center;
     height: 600px;
     width: 800px;
+}
+
+
+  @media screen and (max-width: 600px) {
+    
+.hero-image{
+    width: 100%;
+    height: auto;
+}
+
+.faktabillede{
+    width: 65%;
+}
+
+
+#card{
+    display: flex;
+    flex-direction: column;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+}
+
+.stortbillede{
+    width: 100%; 
+}
+
+.sponsorsection{
+display: flex;
+flex-direction: column;
+}
+
+.sponsorerlogo{
+    display: flex;
+    flex-direction: column;
+    }
+
+
 }
