@@ -7,10 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    $("#navbar").load("navbar.html");
-});
-
-document.addEventListener("DOMContentLoaded", function () {
     $("#slideshow").load("slideshow.html");
 });
 
