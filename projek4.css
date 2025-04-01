@@ -198,6 +198,7 @@ p{
 
 
 
+
 .alignbutton {
     display: flex;
     justify-content: center;
@@ -289,6 +290,7 @@ a.button {
     height: 800px;
 }
 
+/*Pratiske informationer og gevinst lavet af Vincent*/
 
 #card{
     list-style: none;
@@ -315,6 +317,7 @@ a.button {
     justify-content: center;
 
 }
+
 
 
 
