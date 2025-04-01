@@ -130,7 +130,7 @@ p{
     padding-bottom: 75px;
 }
 
-input {
+.formular input {
     width: 400px;
     padding: 12px;
     border-radius: 10px;
@@ -173,11 +173,31 @@ input {
 }
 
 .formular input:hover {
-    border: solid 2px #adadad;
+    border: solid 2px #a3a3a3;
     box-sizing: border-box;
-    transition: 0.35s ease-in-out;
+    transition: 0.1s ease-in-out;
 }
 
+
+/* Distance (Sebastian)*/
+
+#distance {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#distance input {
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+.formular-tjek {
+    margin-bottom: 20px;
+}
+
+
+/*
 .alignbutton {
     display: flex;
     justify-content: center;
@@ -400,6 +420,9 @@ padding-bottom: 75px;
     width: auto;
 }
 
+
+/*Footer*/
+
 footer {
     color: white;
     background-color: #3E3E3E;
@@ -407,13 +430,14 @@ footer {
 
 .footer-section {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .kontakt-ikoner {
     display: flex;
     flex-direction: column;
     padding: 75px 50px 50px 50px;
+    width: 400px;
 }
 
 .kontakt-ikoner img {
@@ -439,10 +463,10 @@ footer {
 
 .sociale-medier {
     padding: 50px;
+    width: 400px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 250px;
 }
 
 .sociale-medier-ikoner {
@@ -455,6 +479,20 @@ footer {
     height: 50px;
     width: 50px;
     margin: 10px;
+}
+
+
+.footer-right {
+    padding: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.footer-logo {
+    height: 75px;
+    
 }
 
 
