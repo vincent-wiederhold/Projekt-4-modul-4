@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    $("#dropdown").load("dropdown.html");
+    $("#distance").load("distance.html");
 });
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -12,4 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
     $("#slideshow").load("slideshow.html");
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    $("#card").load("test.html");
 });
