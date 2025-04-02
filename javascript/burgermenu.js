@@ -24,3 +24,5 @@ function generateMenu() {
 }
 
 document.querySelector(".burger").addEventListener("click", toggleMenu);
+
+generateMenu();

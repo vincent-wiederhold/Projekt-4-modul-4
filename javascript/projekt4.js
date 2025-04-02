@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    $("#burgermenu").load("burgermenu.html");
+    $(".menu").load("burgermenu.html");
 });
 
 document.addEventListener("DOMContentLoaded", function () {
