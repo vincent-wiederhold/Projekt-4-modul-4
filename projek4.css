@@ -178,29 +178,35 @@ p{
 .factsection {
     height: 700px;
     display: flex;
-    /*justify-content: center;*/
+    justify-content: center;
+    align-items: center;
     background-color: #F5F5F5;
 }
 
 .faktabillede {
-    width: 800px;
+    width: 750px;
     position: absolute;
-    z-index: 1;
-    margin: 75px 0px 75px 100px;
+    /*z-index: 1;*/
+    margin: 75px 525px 75px 0px;
+    
 }
 
 .tekstforanfaktabillede{
-    z-index: 2;
+    z-index: 1;
     color: white;
-    height: auto;
-    width: 720px;
+    /*height: auto;*/
+    width: 750px;
     background-color: #ed1c24;
-    margin-left: 575px;
+    /*margin-left: 575px;
     margin-top: 150px;
-    position: absolute;
-    padding: 60px 130px 60px 130px;
+    position: absolute;*/
+    margin-left: 525px;
+    padding: 80px;
 }
 
+.tekstforanfaktabillede h1 {
+    display: block;
+}
 
 .leftalign{
     text-align: left;
