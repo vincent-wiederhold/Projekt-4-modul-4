@@ -17,7 +17,10 @@ a {
     font-size: 32px;
 }
 
-
+.anchor {
+    position: relative;
+    top: -150px;
+}
 
 
 /*Navbar*/
@@ -117,214 +120,8 @@ p{
     color: #76070B;
 }
 
-/*Tilmelding*/
 
-.anchor {
-    position: relative;
-    top: -150px;
-}
-
-.tilmeldingssektion {
-    background-color: white;
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
-
-.formular input {
-    width: 400px;
-    padding: 12px;
-    border-radius: 10px;
-    background-color: #F5F5F5;
-    border: solid 2px #F5F5F5;
-  }
-
-  label {
-    margin-bottom: 5px;
-    font-weight: 600;
-  }
-
-.section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.text-side {
-    margin: 100px;
-}
-
-.formular {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-}
-
-
-.form-tilmeld {
-    display: flex;
-    flex-direction: column;
-    margin: 100px;
-}
-
-.button-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.formular input:hover {
-    border: solid 2px #a3a3a3;
-    box-sizing: border-box;
-    transition: 0.1s ease-in-out;
-}
-
-
-/* Distance (Sebastian)*/
-
-#distance {
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-}
-
-#distance input {
-    margin-left: 30px;
-    margin-right: 5px;
-}
-
-.formular-tjek {
-    margin-bottom: 20px;
-}
-
-
-
-
-.alignbutton {
-    display: flex;
-    justify-content: center;
-}
-
-.arrow {
-    border: solid white;
-    border-width: 0 4px 4px 0;
-    display: inline-block;
-    padding: 6px;
-    margin-bottom: 1px;
-}
-
-.right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-}
-
-.red-text {
-    color: #ed1c24;
-    white-space: pre;
-}
-
-.hvid {
-    height: 20px;
-    width: auto;
-    background-color: #FFFFFF;
-}
-
-.paragraph {
-    text-align: left;
-    width: 50%;
-    margin: 10px auto 20px auto;
-}
-
-
-.tilmeldingstekst {
-    text-align: left;
-}
-
-.stravalogo{
-    height: 20px;
-    width: auto;
-}
-
-.loeberute{
-    height: 200px;
-    width: auto;
-}
-
-.flexdirectionrow{
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-}
-
-.serute{
-    display:flex ;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    white-space: pre;
-}
-
-.ruteknap {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    white-space: nowrap;
-    
-}
-
-
-a.button {
-    font-size: 32px;
-    color: white;
-    background-color: #ed1c24;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 50px;
-    align-items: center;
-    transition: 0.35s ease-in-out;
-}
-
-
-.fact-section {
-    height: 800px;
-    background-color: #F5F5F5;
-}
-
-/*Pratiske informationer og gevinst lavet af Vincent*/
-
-#card{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-#card li {
-    border-radius: 10px;
-    background-color: #ed1c24;
-    margin: 20px 50px 20px 50px;
-    padding: 40px;
-}
-.cardheader {
-    color: white;
-    display: flex;
-    justify-content: center;
-    padding: 0 0 10px 0;
-}
-
-.cardbrødtekst{
-    color: white;
-    display: flex;
-    justify-content: center;
-
-}
-
-.loebforsindetsection{
-height: auto;
-background-color: #FFFFFF;
-padding-top: 75px;
-padding-bottom: 75px;
-}
+/*Hero*/
 
 .hero-image {
     width: 100%;
@@ -343,6 +140,36 @@ padding-bottom: 75px;
     position: absolute;
     padding: 60px 130px 60px 130px;
 }
+
+.hvid {
+    height: 20px;
+    width: auto;
+    background-color: #FFFFFF;
+}
+
+
+/*Loeb for sindet*/
+
+.loebforsindetsection{
+    height: auto;
+    background-color: #FFFFFF;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    }
+
+.paragraph {
+    text-align: left;
+    width: 50%;
+    margin: 10px auto 20px auto;
+}
+
+
+.red-text {
+    color: #ed1c24;
+    white-space: pre;
+}
+
+
 
 /*Faktaboks*/
 
@@ -378,12 +205,45 @@ padding-bottom: 75px;
 }
 
 
+
+/*Pratiske informationer og gevinst lavet af Vincent*/
+
 .cardsection {
     height: auto;
     padding-top: 75px;
     padding-bottom: 75px;
     background-color: #F5F5F5;
 }
+
+#card{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#card li {
+    border-radius: 10px;
+    background-color: #ed1c24;
+    margin: 20px 50px 20px 50px;
+    padding: 40px;
+}
+.cardheader {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 10px 0;
+}
+
+.cardbrødtekst{
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+/*Rute*/
 
 .rutesection{
     height: auto;
@@ -392,6 +252,55 @@ padding-bottom: 75px;
     background-color: #FFFFFF;
 }
 
+.stravalogo{
+    height: 20px;
+    width: auto;
+}
+
+.loeberute{
+    height: 200px;
+    width: auto;
+}
+
+.flexdirectionrow{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.serute{
+    display:flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: pre;
+}
+
+.ruteknap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    white-space: nowrap;
+}
+
+
+a.button {
+    font-size: 32px;
+    color: white;
+    background-color: #ed1c24;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    align-items: center;
+    transition: 0.35s ease-in-out;
+}
+
+
+
+/*Slideshow af Andreas*/
+
 .slideshowsection{
     height: auto;
     padding-top: 75px;
@@ -399,13 +308,175 @@ padding-bottom: 75px;
     background-color: #F5F5F5;
 }
 
+  .slideshow-wrapper {
+    display: flex;
+    justify-content: center; 
+    flex-direction: row;
+}
 
+.slideshow-container {
+    max-width: 1000px;
+    position: relative; 
+    margin: 0; 
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute; 
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #ed1c24;
+    font-weight:bold;
+    font-size: 22px;
+    border-radius: 1000px;
+    user-select: none;
+    transition: 0.1s;
+}
+
+.prev {
+    left: 30px;
+}
+
+.next {
+    right: 30px;
+}
+
+.stortbillede{
+    object-fit: contain;
+    float: center;
+    height: 600px;
+    width: 800px;
+}
+
+
+
+/*Tilmelding*/
+
+
+.tilmeldingssektion {
+    background-color: white;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.formular input {
+    width: 400px;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    border: solid 2px #F5F5F5;
+  }
+
+  label {
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-side {
+    margin: 100px;
+}
+
+.tilmeldingstekst {
+    text-align: left;
+}
+
+.formular {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+.form-tilmeld {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.button-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formular input:hover {
+    border: solid 2px #a3a3a3;
+    box-sizing: border-box;
+    transition: 0.1s ease-in-out;
+}
+
+
+
+/* Distance (Sebastian)*/
+
+#distance {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#distance input {
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+.formular-tjek {
+    margin-bottom: 20px;
+}
+
+
+
+/*Tak for tilmelding*/
+
+.alignbutton {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/*Pil*/
+
+.arrow {
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 6px;
+    margin-bottom: 1px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+
+
+/*
 .sixthsection {
     height: auto;
     padding-top: 75px;
     padding-bottom: 75px;
     background-color: #FFFFFF;
+
+    .hvidtekst{
+    color: #FFFFFF;
 }
+
+}*/
+
+
+
+/* Sponsorer */
 
 .sponsorsection{
     height: auto;
@@ -497,53 +568,8 @@ footer {
 
 
 
-.hvidtekst{
-    color: #FFFFFF;
-}
 
-  /*Andreas*/
-  .slideshow-wrapper {
-    display: flex;
-    justify-content: center; 
-    flex-direction: row;
-}
-
-.slideshow-container {
-    max-width: 1000px;
-    position: relative; 
-    margin: 0; 
-}
-
-.prev, .next {
-    cursor: pointer;
-    position: absolute; 
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 10px;
-    color: rgb(255, 255, 255);
-    background-color: #ed1c24;
-    font-weight:bold;
-    font-size: 22px;
-    border-radius: 1000px;
-    user-select: none;
-    transition: 0.1s;
-}
-
-.prev {
-    left: 30px;
-}
-
-.next {
-    right: 30px;
-}
-
-.stortbillede{
-    object-fit: contain;
-    float: center;
-    height: 600px;
-    width: 800px;
-}
-
+/*Mobile*/
 
   @media screen and (max-width: 600px) {
     
