@@ -293,6 +293,9 @@ p{
     white-space: nowrap;
 }
 
+.kmtekst{
+    margin-bottom: 25px;
+}
 
 a.button {
     font-size: 32px;
