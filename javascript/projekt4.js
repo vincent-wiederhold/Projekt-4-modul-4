@@ -13,3 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
     $("#card").load("test.html");
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    $("#navbar").load("navbar.html");
+});
