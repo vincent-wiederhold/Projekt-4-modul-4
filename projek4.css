@@ -212,6 +212,12 @@ p{
     text-align: left;
 }
 
+.tekstforanfaktabillede a {
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+}
+
 
 
 /*Card med pratiske informationer og gevinst lavet af Vincent*/
