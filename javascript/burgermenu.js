@@ -1,28 +1,46 @@
-const menuItems = ["loebforsindet", "praktisk", "rute", "sponsorer", "Omsind", "tilmeld"]
+const menuItems = [
+    { name: "Loebforsindet", link: "#Loebforsindet"},
+    { name: "Praktisk", link: "#praktisk"},
+    { name: "Rute", link: "#rute"},
+    { name: "Sponsorer", link: "#sponsorer"}
+];
 
 const menuState = { isOpen: false };
 
-function toggleMenu() { 
-    const menu = document.querySelector(".menu");
-
-    if (window.innerWidth <= 768) {
-        menuState.isOpen = !menuState.isOpen;
-        menu.style.display = menuState.isOpen ? "block" : "none";
-    }
-}
-
 function generateMenu() {
-        const menu = document.querySelector(".menu");
-        menu.innerHTML ="";
+    const menu = document.getElementById("menu");
+    menu.innerHTML = "";
 
-    for(let i = 0; i < menuItems.length; i++) { 
-        let menuItem = document.createElement("a");
-        menuItem.textcontent = menuItems[i];
-        menuItem.href = "#";
-        menu.appendChild(menuItem);
+    for (let i = 0; i < menuItems.length; i++) {
+        let li = document.createElement("li");
+        let a = document.createElement("a");
+        a.href = menuItems[i].link;
+        a.textContent = menuItems[i].name;
+
+        a.addEventListener("click", () => {
+            closeMenu();
+        });
+        
+        li.appendChild(a);
+        menu.appendChild(li);
     }
 }
 
-document.querySelector(".burger").addEventListener("click", toggleMenu);
+function toggleMenu(){
+    const menu = document.getElementById("menu");
 
-generateMenu();
+    if (menuState.isOpen) {
+        menu.classList.remove("active");
+    }
+    else {
+        menu.classList.add("active");
+    }
+
+    menuState.isOpen = !menuState.isOpen;
+}
+
+function closeMenu() {
+    const menu = document.getElementById("menu");
+    menu.classList.remove("active");
+    menuState.isOpen = false;
+}

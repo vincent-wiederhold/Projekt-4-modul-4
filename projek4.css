@@ -57,6 +57,44 @@ a {
  margin: 20px auto 20px 50px;
 }
 
+.menu-icon {
+    font-size: 24px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu.active {
+    display: block;
+}
+
+@media (min-width: 600px) {
+    .menu {
+        display: flex;
+        position: static;
+        background: transparent;
+    } 
+    .menu li {
+        border: none;
+    }
+    .menu.active {
+        display: flex;
+    }
+}
 
 
 /*Knap*/
@@ -632,14 +670,3 @@ flex-direction: column;
 
 
 
-.mobile-toggle {
-    display: none;
-    color: var(--ashgrey-900);
-    padding: 10px;
-    @media (max-width: 768px){
-        display:inline-block;
-        position:absolute;
-        top:20px;
-        right:20px;
-    }
-}
