@@ -603,16 +603,36 @@ footer {
 /*Mobile*/
 
   @media screen and (max-width: 600px) {
+body{
+    background-color: deeppink;
+}
     
 .hero-image{
     width: 100%;
     height: auto;
 }
 
-.faktabillede{
-    width: 65%;
+.factsection {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
 }
 
+.faktabillede{
+    width: 65%;
+    position: initial;
+    margin: 0;
+}
+
+.tekstforanfaktabillede{
+    z-index: 1;
+    color: white;
+    width: 750px;
+    background-color: #ed1c24;
+    margin: 0;
+    padding: 80px;
+}
 
 #card{
     display: flex;
