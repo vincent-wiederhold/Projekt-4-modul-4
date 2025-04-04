@@ -12,21 +12,28 @@
 
 </head>
 <body>
-<div id="navbar">
-    <div>
-        <img class="mindrelogo" src="/images/loebforsindet.png" alt="">
-    </div>
-    <div class="links">
-        <a href="#loebforsindet">Løb for <span class="red-text"><b>SIND</b></span>et</a>
-        <a href="#praktisk">Pratisk</a>
-        <a href="#rute">Rute</a>
-        <a href="#sponsorer">Sponsorer</a>
-        <a href="https://sind.dk/om-sind">Om SIND</a>
-    </div>
-    <div class="navbarknap">
-        <a class="button" href="#tilmelding">Tilmelding</a>
-    </div>
-</div>
+    <header>
+        <a href="#" class="logo-holder">
+            <div class="logo"><img src="/images/loebforsindet.png" alt="Loebforsindetlogo"></div>
+        </a>
+
+        <nav>
+            <ul id="menu">
+               <li><a href="#loebforsindet">Løb for <span class="red-text"><b>SIND</b></span>et</a></li> 
+                <li><a href="#praktisk">Pratisk</a></li>
+                <li><a href="#rute">Rute</a></li>
+                <li><a href="#sponsorer">Sponsorer</a></li>
+                <li><a href="https://sind.dk/om-sind">Om SIND</a></li>
+                <div class="navbarknap">
+                    <li><a class="button" href="#tilmelding">Tilmelding</a></li>
+            </ul>
+            <a href="#" class="mobile-toggle" onclick="toggleMobileMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
+                </svg> 
+            </a>
+        </nav>
+    </header>
 
 <div>
     <img class="hero-image" src="/images/herobanner.webp" alt="">

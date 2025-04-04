@@ -24,18 +24,86 @@ a {
 
 
 /*Navbar*/
-
-
-.links {
+header{
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 20px;
-    flex-grow: 1;
-}
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: auto;
 
-.links a {
-    margin-right: 30px;
+    .logo-holder{
+        display:flex;
+        padding:10px;
+        align-items: center;
+        font-weight: 600;
+        color: var(--black);
+        text-decoration: none;
+
+        .logo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 64px;
+            width: 64px;
+            margin-right: 20px;
+            border-radius: 50%;
+            img{
+                width: 64px;
+                height: auto;
+            }
+        }
+    }
+
+    nav {
+    display: flex;
+    align-items: center;
+        ul{
+        display: flex;
+        list-style-type: none;
+        gap: 5px;
+            li{
+            display: inline-block;
+                a{
+                display: inline-block;
+                padding: 10px 20px;
+
+                }
+            }
+        }
+        .mobile-toggle {
+            display: none;
+            color: var(--ashgrey-900);
+            padding: 10px;
+            @media (max-width: 768px){
+                display:inline-block;
+                position:absolute;
+                top:20px;
+                right:20px;
+            }
+        }
+    }
+    
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        nav {
+            margin-top: 10px;
+            width: 100%;
+            ul{
+                display:none;
+                flex-direction: column;
+                text-align: center;
+                width: 100%;
+                a {
+                    width: 100%;
+                }
+                &.active {
+                    display:flex;
+                }
+            }
+        }
+    }
 }
 
 #navbar{
@@ -50,36 +118,6 @@ a {
 
 .navbarknap {
     margin-right: 50px;
-}
-
-.mindrelogo{
- height: 75px;
- margin: 20px auto 20px 50px;
-}
-
-.menu-icon {
-    font-size: 24px;
-}
-
-.menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: none;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    width: 100%;
-}
-
-.menu li a {
-    color: white;
-    text-decoration: none;
-    display: block;
-}
-
-.menu.active {
-    display: block;
 }
 
 
