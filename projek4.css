@@ -162,6 +162,13 @@ button:hover, a.button:hover {
 
 
 h1{
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
     font-size: 32px;
     font-weight: bold;
     display: flex;
@@ -643,6 +650,13 @@ footer {
   @media screen and (max-width: 600px) {
 body{
     background-color: deeppink;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
     
 .hero-image{
