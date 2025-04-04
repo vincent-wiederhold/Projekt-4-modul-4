@@ -82,19 +82,6 @@ a {
     display: block;
 }
 
-@media (min-width: 600px) {
-    .menu {
-        display: flex;
-        position: static;
-        background: transparent;
-    } 
-    .menu li {
-        border: none;
-    }
-    .menu.active {
-        display: flex;
-    }
-}
 
 
 /*Knap*/
@@ -656,6 +643,18 @@ flex-direction: column;
 .footer-section{
     display: flex;
     flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    position: static;
+    background: transparent;
+} 
+.menu li {
+    border: none;
+}
+.menu.active {
+    display: flex;
 }
 
 }
