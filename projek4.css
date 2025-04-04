@@ -154,20 +154,24 @@ button:hover, a.button:hover {
     cursor: pointer;
 }
 
-
-
-
-
-
-
-
 h1{
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
     font-size: 32px;
     font-weight: bold;
     display: flex;
     justify-content: center;
 }
 
+.underoverskrift{
+    font-size: 22px;
+    font-weight: bold;
+}
 p{
     font-size: 20px;
     font-weight: 400;
@@ -643,6 +647,13 @@ footer {
   @media screen and (max-width: 600px) {
 body{
     background-color: deeppink;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
     
 .hero-image{
