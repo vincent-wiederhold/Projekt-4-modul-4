@@ -169,22 +169,11 @@ p{
     object-fit: cover;
     z-index: 1;
 }
-.tekstforanherobanner{
+
+.tekstforanherobanner {
     z-index: 2;
     color: white;
-    height: auto;
-    width: 720px;
-    background-color: #ed1c24;
-    margin-left: 575px;
-    margin-top: 150px;
-    position: absolute;
-    padding: 60px 130px 60px 130px;
-}
-
-.hvid {
-    height: 20px;
-    width: auto;
-    background-color: #FFFFFF;
+    text-align: center;
 }
 
 
