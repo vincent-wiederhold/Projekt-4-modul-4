@@ -290,7 +290,7 @@ p{
     width: auto;
 }
 
-.flexdirectionrow{
+.rutediv{
     display: flex;
     flex-direction: row;
     padding: 20px;
@@ -628,10 +628,10 @@ body{
 .tekstforanfaktabillede{
     z-index: 1;
     color: white;
-    width: 750px;
+    width: auto;
     background-color: #ed1c24;
     margin: 0;
-    padding: 80px;
+    padding: 40px;
 }
 
 #card{
@@ -675,6 +675,13 @@ flex-direction: column;
 }
 .menu.active {
     display: flex;
+}
+
+.rutediv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
 }
