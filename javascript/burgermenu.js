@@ -4,45 +4,31 @@ const menuItems = [
     { name: "Praktisk", link: "#praktisk"},
     { name: "Rute", link: "#rute"},
     { name: "Sponsorer", link: "#sponsorer"},
-    { name: "Sponsorer", link: "#sponsorer"}
+    { name: "Om SIND", link: "https://sind.dk/om-sind"},
+    { name: "Tilmelding", link: "#tilmelding"}
 ];
 
-const menuState = { isOpen: false };
+const menuState = { isOpen: false};
+
+function toggleMobileMenu() {
+    const menu = document.getElementById("menu");
+    if (menu.style.display === "block"){
+        menu.style.display = "none";
+    }
+    else {
+        menu.style.display = "block";
+    }
+}
 
 function generateMenu() {
     const menu = document.getElementById("menu");
     menu.innerHTML = "";
-
     for (let i = 0; i < menuItems.length; i++) {
-        let li = document.createElement("li");
-        let a = document.createElement("a");
-        a.href = menuItems[i].link;
-        a.textContent = menuItems[i].name;
-
-        a.addEventListener("click", () => {
-            closeMenu();
-        });
-        
-        li.appendChild(a);
+        const item = menuItems[i];
+        const li = document.createElement("li");
+        li.innerHTML = `<a href="${item.link}">${item.name}</a>`;
         menu.appendChild(li);
     }
 }
 
-function toggleMenu(){
-    const menu = document.getElementById("menu");
-
-    if (menuState.isOpen) {
-        menu.classList.remove("active");
-    }
-    else {
-        menu.classList.add("active");
-    }
-
-    menuState.isOpen = !menuState.isOpen;
-}
-
-function closeMenu() {
-    const menu = document.getElementById("menu");
-    menu.classList.remove("active");
-    menuState.isOpen = false;
-}
+generateMenu();
