@@ -3,6 +3,7 @@ const menuItems = [
     { name: "Loebforsindet", link: "#Loebforsindet"},
     { name: "Praktisk", link: "#praktisk"},
     { name: "Rute", link: "#rute"},
+    { name: "Sponsorer", link: "#sponsorer"},
     { name: "Sponsorer", link: "#sponsorer"}
 ];
 
