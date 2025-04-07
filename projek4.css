@@ -31,7 +31,8 @@ a {
 #menu {
     display: none;
 }
-/*Navbar*/
+
+/*Navbar*//*
 header{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -118,7 +119,7 @@ header{
 }
 .navbarknap {
     margin-right: 50px;
-}
+}*/
 
 
 
