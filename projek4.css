@@ -23,8 +23,8 @@ a {
 }
 
 
-#menu{
-    display: hidden;
+#menu {
+    display: none;
 }
 /*Navbar*/
 header{
