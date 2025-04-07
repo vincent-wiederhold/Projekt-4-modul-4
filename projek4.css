@@ -23,6 +23,9 @@ a {
 }
 
 
+#menu{
+    display: hidden;
+}
 /*Navbar*/
 header{
     padding-top: 10px;
@@ -108,17 +111,6 @@ header{
         }
     }
 }
-
-#navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    position: fixed;
-    background-color: white;
-    z-index: 3;
-}
-
 .navbarknap {
     margin-right: 50px;
 }
@@ -728,6 +720,9 @@ flex-direction: column;
     padding: 20px;
 }
 
+#menu {
+    list-style: none;
+}
 }
 
 
