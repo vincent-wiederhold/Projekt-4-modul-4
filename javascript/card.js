@@ -6,9 +6,9 @@ const cardItems = [
 
 
 if (cardItems.length < 0 ) {
-    fejliCardsLoading();
+    fejlicardsLoading();
 } else {
-console.log ("virker dette?")
+console.log ("loading af cards velykket")
 
     const cardContainer = document.getElementById('card');
 
@@ -18,6 +18,6 @@ console.log ("virker dette?")
     }
 }
 
-function fejliCardsLoading(){
-    console.log ("test af cards")
+function fejlicardsLoading(){
+    console.log ("Loading af cards fejlet")
 }

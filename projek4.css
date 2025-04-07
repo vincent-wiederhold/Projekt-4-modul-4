@@ -279,7 +279,7 @@ p{
     height: auto;
     padding-top: 75px;
     padding-bottom: 75px;
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
 }
 
 #card{
@@ -316,7 +316,7 @@ p{
     height: auto;
     padding-top: 75px;
     padding-bottom: 75px;
-    background-color: #FFFFFF;
+    background-color: #F5F5F5;
 }
 
 .stravalogo{
@@ -375,7 +375,7 @@ a.button {
     height: auto;
     padding-top: 75px;
     padding-bottom: 75px;
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
 }
 
   .slideshow-wrapper {
@@ -425,7 +425,7 @@ a.button {
 
 
 .tilmeldingssektion {
-    background-color: white;
+    background-color: #F5F5F5;
     padding-top: 75px;
     padding-bottom: 75px;
 }
@@ -434,8 +434,8 @@ a.button {
     width: 400px;
     padding: 12px;
     border-radius: 10px;
-    background-color: #F5F5F5;
-    border: solid 2px #F5F5F5;
+    background-color: #FFFFFF;
+    border: solid 2px rgba(0, 0, 0, 0.3);
   }
 
   label {
@@ -551,7 +551,7 @@ a.button {
     height: auto;
     padding-top: 75px;
     padding-bottom: 75px;
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
 }
 .sponsorerlogo{
     display:flex ;
