@@ -11,5 +11,5 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    $("#card").load("test.html");
+    $("#card").load("card.html");
 });

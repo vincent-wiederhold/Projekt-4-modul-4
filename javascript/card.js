@@ -5,7 +5,7 @@ const cardItems = [
 
 
 
-if (cardItems.length = 0 ) {
+if (cardItems.length < 0 ) {
     fejliCardsLoading();
 } else {
 console.log ("virker dette?")
