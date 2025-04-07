@@ -24,9 +24,7 @@ a {
 }
 
 #menu{ 
-
-    display: hidden; 
-    
+    display: none; 
     }
 
 .menudesktop{
@@ -37,7 +35,9 @@ a {
 }
     
     /*Navbar*/ 
-    
+.mobile-toggle{
+    display: none;
+}
 header{ 
     padding-top: 10px; 
     padding-bottom: 10px; 
@@ -85,17 +85,6 @@ header{
                 }
             } 
         } 
-    
-        .mobile-toggle { 
-            display: none; 
-            padding: 10px; 
-            @media (max-width: 768px){ 
-                display:inline-block; 
-                position:absolute;
-                top:20px;
-                right:20px; 
-            } 
-        }
     }
 
     @media (max-width: 768px) { 
@@ -714,17 +703,6 @@ flex-direction: column;
     flex-direction: column;
 }
 
-/*.menu {
-    display: flex;
-    background: transparent;
-} 
-.menu li {
-    border: none;
-}
-.menu.active {
-    display: flex;
-}*/
-
 .rutediv{
     display: flex;
     flex-direction: column;
@@ -734,9 +712,16 @@ flex-direction: column;
 
 #menu {
     list-style: none;
-}
+    display: none;
 }
 
+.menudesktop{
+    display: none;
+}
+.mobile-toggle{
+    display: flex;
+}
+}
 
 
 
