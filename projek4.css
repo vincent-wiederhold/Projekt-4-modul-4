@@ -265,6 +265,10 @@ p{
     text-align: left;
 }
 
+.leftalign a {
+    margin: 0;
+}
+
 .tekstforanfaktabillede a {
     font-size: 20px;
     color: white;
@@ -477,7 +481,7 @@ a.button {
 }
 
 .formular input:hover {
-    border: solid 2px #a3a3a3;
+    border: solid 2px #757575;
     box-sizing: border-box;
     transition: 0.1s ease-in-out;
 }
