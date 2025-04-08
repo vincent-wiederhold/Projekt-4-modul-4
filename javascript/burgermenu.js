@@ -26,7 +26,7 @@ function generateMenu() {
     for (let i = 0; i < menuItems.length; i++) {
         const item = menuItems[i];
         const li = document.createElement("li");
-        li.innerHTML = <a href="${item.link}">${item.name}</a>;
+        li.innerHTML = `<a href="${item.link}">${item.name}</a>`;
         menu.appendChild(li);
     }
 }
