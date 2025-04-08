@@ -3,12 +3,9 @@ const cardItems = [
     { brødtekst: 'T-shirt, goodiebag, frisk luft og bevægelse', h1: 'Du får' },
 ];
 
-
-
 if (cardItems.length < 0 ) {
     fejlicardsLoading();
 } else {
-console.log ("loading af cards velykket")
 
     const cardContainer = document.getElementById('card');
 
@@ -16,6 +13,8 @@ console.log ("loading af cards velykket")
         {
         cardContainer.innerHTML += '<li><h1 class="cardheader">' + cardItems[i].h1 + '</h1><p class="cardbrødtekst">' + cardItems[i].brødtekst + '</p></li>';
     }
+
+    console.log ("loading af cards velykket")
 }
 
 function fejlicardsLoading(){
