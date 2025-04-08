@@ -32,3 +32,12 @@ function generateMenu() {
 }
 
 generateMenu();
+
+
+function reportWindowSize() {
+    if(window.innerWidth > 600) {
+        menu.style.display = "none";
+    }
+}
+
+window.onresize = reportWindowSize;
