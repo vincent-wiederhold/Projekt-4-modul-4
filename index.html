@@ -23,7 +23,6 @@
                 <li><a href="#rute">Rute</a></li>
                 <li><a href="#sponsorer">Sponsorer</a></li>
                 <li><a href="https://sind.dk/om-sind">SIND.dk</a></li>
-                <li><div class="navbarknap"></div></li>
                 <li><a class="button" href="#tilmelding">Tilmelding</a></li>
             </ul>
            <a href="#" class="mobile-toggle" onclick="toggleMobileMenu();">
@@ -83,7 +82,7 @@
         <h2>Rute</h2>
         <div class="section">
             <div class="text-side">
-                <p class="tilmeldingstekst">
+                <p class="leftalign">
                     Uanset hvor langt du løber, vil starten gå fra de smukke omgivelser i Fruens Bøge Skov.
                     Du vil komme til at løbe langs Odense Å og op mod det hyggelige Hunderup-kvarter, hvor du til sidst vil slutte dit løb for velgørenhed tilbage i skoven ved Fruens Bøge.
                     <br>Du kan se de forskellige ruter ved at trykke på Strava-knapperne, der vil føre dig videre til rutebeskrivelsen.
@@ -93,7 +92,7 @@
             <div>
                 <div class="rutediv">
                     <div class="ruteknap">
-                        <p class="kmtekst">3 km</p>
+                        <p class="kmtekst">3 km:</p>
                         <a class="button" href="https://www.strava.com/routes/3342471099849944418" target="_blank">
                             <div class="serute">
                                 <p>Se ruten på </p>
@@ -108,7 +107,7 @@
 
                 <div class="rutediv">
                     <div class="ruteknap">
-                        <p class="kmtekst">5 km</p>
+                        <p class="kmtekst">5 km:</p>
                         <a class="button" href="https://www.strava.com/routes/3342470198349398370" target="_blank">
                             <div class="serute">
                                 <p>Se ruten på </p>
@@ -123,7 +122,7 @@
 
                 <div class="rutediv">
                     <div class="ruteknap">
-                        <p class="kmtekst">10 km</p>
+                        <p class="kmtekst">10 km:</p>
                         <a class="button" href="https://www.strava.com/routes/3339928291413938182" target="_blank">
                             <div class="serute">
                                 <p>Se ruten på </p>
@@ -149,32 +148,32 @@
         <h2>Tilmelding</h2>
         <div class="section">
             <div class="text-side">
-                <p class="tilmeldingstekst"> Lyder løbet som noget for dig? Så tilmeld dig i formularen her til højre.<br><br>
+                <p class="leftalign"> Lyder løbet som noget for dig? Så tilmeld dig i formularen her til højre.<br><br>
                     Du kan vælge mellem <b>3</b>, <b>5</b> eller <b>10</b> kilometer.
                     <br>Det er helt op til dig, om du vil gå eller løbe - det er ikke det, der er vigtigt. Det vigtigste er at komme ud og dyrke motion for en god sag<br><br>
                     Vi glæder os til at se dig!</p>
 
             </div>
 
-            <form action="tak.html" method="GET" class="form-tilmeld">
+            <form action="tak.html" method="GET" class="form-tilmeld" name="Tilmelding">
                 <div class="formular">
-                    <label>For- og Efternavn:</label>
-                    <input type="text" placeholder="Jens Jensen">
+                    <label for="formnavn">For- og Efternavn:</label>
+                    <input type="text" name="formnavn" id="formnavn" placeholder="Jens Jensen">
                 </div>
                 <div class="formular">
-                    <label>Telefonnummer:</label>
-                    <input type="tel" placeholder="11 22 33 44">
+                    <label for="formtelefonnummer">Telefonnummer:</label>
+                    <input type="tel" name="formtelefonnummer" id="formtelefonnummer" placeholder="11 22 33 44">
                 </div>
                 <div class="formular">
-                    <label>Email:</label>
-                    <input type="email" placeholder="jensjensen@example.com">
+                    <label for="formemail">Email:</label>
+                    <input type="email" name="formemail" id="formemail" placeholder="jensjensen@example.com">
                 </div>
                 <div class="formular">
-                    <label>Adresse:</label>
-                    <input placeholder="Odensegade 1, 5000 Odense C">
+                    <label for="formadresse">Adresse:</label>
+                    <input type="text" name="formadresse" id="formadresse" placeholder="Odensegade 1, 5000 Odense C">
                 </div>
                 <div class="formular-tjek">
-                    <label>Distance:</label>
+                    <p class="form-p">Distance:</p>
                     <div id="distance"></div>
                 </div>
                 <div class="button-form">
