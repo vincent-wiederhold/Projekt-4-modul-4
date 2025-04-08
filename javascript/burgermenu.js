@@ -1,6 +1,6 @@
 
 const menuItems = [
-    { name: "Loebforsindet", link: "#Loebforsindet"},
+    { name: "Løb for SINDet", link: "#loebforsindet"},
     { name: "Praktisk", link: "#praktisk"},
     { name: "Rute", link: "#rute"},
     { name: "Sponsorer", link: "#sponsorer"},
