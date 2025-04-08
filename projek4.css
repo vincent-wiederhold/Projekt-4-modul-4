@@ -259,8 +259,9 @@ p{
     padding: 80px;
 }
 
-.tekstforanfaktabillede h1 {
+.tekstforanfaktabillede h2 {
     display: block;
+    margin: 0;
 }
 
 .leftalign{
