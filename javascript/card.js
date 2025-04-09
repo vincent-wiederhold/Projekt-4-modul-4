@@ -11,7 +11,7 @@ if (cardItems.length < 0 ) {
 
     for (let i = 0; i < cardItems.length; i++) 
         {
-        cardContainer.innerHTML += '<li><h1 class="cardheader">' + cardItems[i].h1 + '</h1><p class="cardbrødtekst">' + cardItems[i].brødtekst + '</p></li>';
+        cardContainer.innerHTML += '<ul class="kortudskrivelse"><li><h1 class="cardheader">' + cardItems[i].h1 + '</h1><p class="cardbrødtekst">' + cardItems[i].brødtekst + '</p></li></ul class="kortudskrivelse">';
     }
 
     console.log ("Loading af cards velykket")

@@ -337,7 +337,11 @@ p{
 
 }
 
-
+.kortudskrivelse{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /*Rute*/
 
@@ -738,6 +742,13 @@ footer {
 
     #card h1 {
         margin: 0;
+    }
+
+    .kortudskrivelse{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .section{
