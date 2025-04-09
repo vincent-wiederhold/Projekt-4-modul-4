@@ -41,3 +41,10 @@ function reportWindowSize() {
 }
 
 window.onresize = reportWindowSize;
+
+
+window.addEventListener('click', function(klik) {
+    if (!this.document.getElementById('mobile-toggle').contains(klik.target) && (!this.document.getElementById('menu').contains(klik.target))) {
+        this.document.getElementById('menu').style.display = "none";
+    }
+})
