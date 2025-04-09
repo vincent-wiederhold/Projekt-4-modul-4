@@ -1,5 +1,5 @@
 const cardItems = [
-    { brødtekst: 'Pris: 149 kr., Dato & tid: 2. august kl. 10.00, Sted: Fruens Bøge Skov, Odense', h1: 'Pratiske informationer' },
+    { brødtekst: 'Pris: 149 kr., Dato & tid: 2. august kl. 10.00, Sted: Fruens Bøge Skov, Odense', h1: 'Praktiske informationer' },
     { brødtekst: 'T-shirt, goodiebag, frisk luft og bevægelse', h1: 'Du får' },
 ];
 
