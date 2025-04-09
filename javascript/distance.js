@@ -5,7 +5,7 @@ let alleDistancer = "";
 if (distancer.length > 0) {
 
     for (let i = 0; i < distancer.length; i++) {
-        alleDistancer += '<input type="radio" name="distance" value="' + distancer[i] + '">' + '<label for="' + distancer[i] + '">' + distancer[i] + '</label>';
+        alleDistancer += '<input type="radio" name="distance" id="' + distancer[i] + '" value="' + distancer[i] + '">' + '<label for="' + distancer[i] + '">' + distancer[i] + '</label>';
     }
 
     document.getElementById("distance").innerHTML = alleDistancer;

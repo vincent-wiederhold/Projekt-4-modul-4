@@ -15,7 +15,7 @@
     <header>
         <nav>
         <a href="#" class="logo-holder">
-                <div class="logo"><img src="/images/loebforsindet.png" alt="Loebforsindetlogo"></div>
+                <div class="logo"><img src="/images/loebforsindet.png" alt="Løb-for-sindet-logo."></div>
             </a>
             <ul class="menudesktop">
                 <li><a href="#loebforsindet">Løb for <span class="red-text"><b>SIND</b></span>et</a></li> 
@@ -23,10 +23,9 @@
                 <li><a href="#rute">Rute</a></li>
                 <li><a href="#sponsorer">Sponsorer</a></li>
                 <li><a href="https://sind.dk/om-sind">SIND.dk</a></li>
-                <li><div class="navbarknap"></div></li>
                 <li><a class="button" href="#tilmelding">Tilmelding</a></li>
             </ul>
-           <a href="#" class="mobile-toggle" onclick="toggleMobileMenu();">
+           <a href="#" class="mobile-toggle" id="mobile-toggle" onclick="toggleMobileMenu();">
             <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
             </svg> 
@@ -36,7 +35,7 @@
     </header>
 
     <div>
-        <img class="hero-image" src="/images/herobanner.webp" alt="">
+        <img class="hero-image" src="/images/herobanner.webp" alt="Stort antal unge kvinder løber på græsområde.">
     </div>
 
     <div class="loebforsindetsection">
@@ -52,7 +51,7 @@
     </div>
 
     <div class="factsection">
-        <img class="faktabillede" src="/images/running-woman.webp" alt="En kvinde løber optismistisk på en landevej omgivet af natur.">
+        <img class="faktabillede" src="/images/running-woman.webp" alt="Kvinde løber optismistisk på landevej omgivet af natur.">
 
         <div class="tekstforanfaktabillede">
             <h2>Motion frigiver stoffer i hjernen!</h2><br>
@@ -83,7 +82,7 @@
         <h2>Rute</h2>
         <div class="section">
             <div class="text-side">
-                <p class="tilmeldingstekst">
+                <p class="leftalign">
                     Uanset hvor langt du løber, vil starten gå fra de smukke omgivelser i Fruens Bøge Skov.
                     Du vil komme til at løbe langs Odense Å og op mod det hyggelige Hunderup-kvarter, hvor du til sidst vil slutte dit løb for velgørenhed tilbage i skoven ved Fruens Bøge.
                     <br>Du kan se de forskellige ruter ved at trykke på Strava-knapperne, der vil føre dig videre til rutebeskrivelsen.
@@ -93,7 +92,7 @@
             <div>
                 <div class="rutediv">
                     <div class="ruteknap">
-                        <p class="kmtekst">3 km</p>
+                        <p class="kmtekst">3 km:</p>
                         <a class="button" href="https://www.strava.com/routes/3342471099849944418" target="_blank">
                             <div class="serute">
                                 <p>Se ruten på </p>
@@ -102,13 +101,13 @@
                             </div>
                         </a>
                     </div>
-                    <a href="https://www.strava.com/routes/3342471099849944418" target="_blank"><img class="loeberute" src="/images/3_km_rute.webp" alt=""></a>
+                    <a href="https://www.strava.com/routes/3342471099849944418" target="_blank"><img class="loeberute" src="/images/3_km_rute.webp" alt="Ruten til 3 km på kort. Tager dig til ruten på Strava."></a>
                     
                 </div>
 
                 <div class="rutediv">
                     <div class="ruteknap">
-                        <p class="kmtekst">5 km</p>
+                        <p class="kmtekst">5 km:</p>
                         <a class="button" href="https://www.strava.com/routes/3342470198349398370" target="_blank">
                             <div class="serute">
                                 <p>Se ruten på </p>
@@ -117,13 +116,13 @@
                             </div>
                         </a>
                     </div>
-                    <a href="https://www.strava.com/routes/3342470198349398370" target="_blank"><img class="loeberute" src="/images/5_km_rute.webp" alt=""></a>
+                    <a href="https://www.strava.com/routes/3342470198349398370" target="_blank"><img class="loeberute" src="/images/5_km_rute.webp" alt="Ruten til 5 km på kort. Tager dig til ruten på Strava."></a>
                     
                 </div>
 
                 <div class="rutediv">
                     <div class="ruteknap">
-                        <p class="kmtekst">10 km</p>
+                        <p class="kmtekst">10 km:</p>
                         <a class="button" href="https://www.strava.com/routes/3339928291413938182" target="_blank">
                             <div class="serute">
                                 <p>Se ruten på </p>
@@ -132,7 +131,7 @@
                             </div>
                         </a>
                     </div>
-                    <a href="https://www.strava.com/routes/3339928291413938182" target="_blank"><img class="loeberute" src="/images/10_km_rute.webp" alt=""></a>
+                    <a href="https://www.strava.com/routes/3339928291413938182" target="_blank"><img class="loeberute" src="/images/10_km_rute.webp" alt="Ruten til 10 km på kort. Tager dig til ruten på Strava."></a>
                     
                 </div>
             </div>
@@ -149,32 +148,32 @@
         <h2>Tilmelding</h2>
         <div class="section">
             <div class="text-side">
-                <p class="tilmeldingstekst"> Lyder løbet som noget for dig? Så tilmeld dig i formularen her til højre.<br><br>
+                <p class="leftalign"> Lyder løbet som noget for dig? Så tilmeld dig i formularen her til højre.<br><br>
                     Du kan vælge mellem <b>3</b>, <b>5</b> eller <b>10</b> kilometer.
                     <br>Det er helt op til dig, om du vil gå eller løbe - det er ikke det, der er vigtigt. Det vigtigste er at komme ud og dyrke motion for en god sag<br><br>
                     Vi glæder os til at se dig!</p>
 
             </div>
 
-            <form action="tak.html" method="GET" class="form-tilmeld">
+            <form action="tak.html" method="GET" class="form-tilmeld" name="Tilmelding">
                 <div class="formular">
-                    <label>For- og Efternavn:</label>
-                    <input type="text" placeholder="Jens Jensen">
+                    <label for="formnavn">For- og Efternavn:</label>
+                    <input type="text" name="formnavn" id="formnavn" placeholder="Jens Jensen">
                 </div>
                 <div class="formular">
-                    <label>Telefonnummer:</label>
-                    <input type="tel" placeholder="11 22 33 44">
+                    <label for="formtelefonnummer">Telefonnummer:</label>
+                    <input type="tel" name="formtelefonnummer" id="formtelefonnummer" placeholder="11 22 33 44">
                 </div>
                 <div class="formular">
-                    <label>Email:</label>
-                    <input type="email" placeholder="jensjensen@example.com">
+                    <label for="formemail">Email:</label>
+                    <input type="email" name="formemail" id="formemail" placeholder="jensjensen@example.com">
                 </div>
                 <div class="formular">
-                    <label>Adresse:</label>
-                    <input placeholder="Odensegade 1, 5000 Odense C">
+                    <label for="formadresse">Adresse:</label>
+                    <input type="text" name="formadresse" id="formadresse" placeholder="Odensegade 1, 5000 Odense C">
                 </div>
                 <div class="formular-tjek">
-                    <label>Distance:</label>
+                    <p class="form-p">Distance:</p>
                     <div id="distance"></div>
                 </div>
                 <div class="button-form">
@@ -188,9 +187,9 @@
         <a class="anchor" name="sponsorer"></a>
         <h2>Sponsorer</h2>
             <div class="sponsorerlogo">
-                <img src="/images/Sponsor1medvandmaerke.png" alt="">
-                <img src="/images/Sponsor2medvandmaerke.png" alt="">
-                <img src="/images/Sponsor3medvandmaerke.png" alt="">
+                <img src="/images/Sponsor1medvandmaerke.png" alt="Eksempel på sponsor. OUH Odense Universitethospital logo">
+                <img src="/images/Sponsor2medvandmaerke.png" alt="Eksempel på sponsor. SDU Syddansk Universitet logo">
+                <img src="/images/Sponsor3medvandmaerke.png" alt="Eksempel på sponsor. Odense Kommune logo">
             </div>
     </div>
 
@@ -198,26 +197,26 @@
         <div class="footer-section">
             <div class="kontakt-ikoner">
                 <div class="telefon">
-                    <img src="/icons/phone_icon.svg" alt="">
+                    <img src="/icons/phone_icon.svg" alt="Rød telefon-ikon.">
                     <p>35 24 07 50</p>
                 </div>
                 <div class="email">
-                    <img src="/icons/email_icon.svg" alt="">
+                    <img src="/icons/email_icon.svg" alt="Rød email-ikon.">
                     <p>Landsforeningen@sind.dk</p>
                 </div>
             </div>
 
             <div class="sociale-medier">
-                <h1 class="følg-os">Følg os på:</h1>
+                <h1 class="foelg-os">Følg os på:</h1>
                 <div class="sociale-medier-ikoner">
-                    <img src="/icons/facebook_icon.png" alt="">
-                    <img src="/icons/Instagram_icon.png" alt="">
-                    <img src="/icons/tiktok-icon-free-png.webp" alt="">
+                    <img src="/icons/facebook_icon.png" alt="Facebook-ikon.">
+                    <img src="/icons/Instagram_icon.png" alt="Instagram-ikon.">
+                    <img src="/icons/tiktok-icon-free-png.webp" alt="Tiktok-ikon.">
                 </div>
             </div>
 
             <div class="footer-right">
-                <img class="footer-logo" src="/images/loebforsindet.png" alt="">
+                <img class="footer-logo" src="/images/loebforsindet.png" alt="Løb-for-sindet-logo.">
             </div>
         </div>
     </footer>

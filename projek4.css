@@ -50,6 +50,7 @@ header{
     position: fixed;
     z-index: 3;
     background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px 0px #000000;
     
     .logo-holder{ 
         display:flex;
@@ -65,7 +66,8 @@ header{
             justify-content: center; 
             height: 64px; 
             width: 64px; 
-            margin-right: 20px; 
+            margin-right: 20px;
+            margin-left: 40px;
             border-radius: 50%; 
             img{ 
             width: 64px; 
@@ -237,7 +239,7 @@ p{
 .paragraph {
     text-align: left;
     width: 50%;
-    margin: 10px auto 20px auto;
+    margin: 10px auto;
 }
 
 
@@ -360,7 +362,9 @@ p{
     display: flex;
     flex-direction: row;
     padding: 20px;
+    margin: 0 50px 0 50px;
 }
+
 
 .serute{
     display:flex ;
@@ -375,12 +379,13 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 20px 0 20px 0;
     white-space: nowrap;
 }
 
 .kmtekst{
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+    font-weight: 700;
 }
 
 a.button {
@@ -393,6 +398,8 @@ a.button {
     align-items: center;
     transition: 0.35s ease-in-out;
 }
+
+
 
 
 
@@ -465,9 +472,14 @@ a.button {
     border: solid 2px rgba(0, 0, 0, 0.3);
   }
 
-  label {
+  label, .form-p {
     margin-bottom: 5px;
     font-weight: 600;
+  }
+
+  .form-p {
+    text-align: inherit;
+    font-size: 16px;
   }
 
 .section {
@@ -477,11 +489,7 @@ a.button {
 }
 
 .text-side {
-    margin: 100px;
-}
-
-.tilmeldingstekst {
-    text-align: left;
+    margin: 100px 50px 100px 100px;
 }
 
 .formular {
@@ -494,7 +502,7 @@ a.button {
 .form-tilmeld {
     display: flex;
     flex-direction: column;
-    margin: 100px;
+    margin: 100px 100px 100px 175px;
 }
 
 .button-form {
@@ -622,7 +630,7 @@ footer {
 
 }
 
-.følg-os {
+.foelg-os {
     font-style: italic;
     font-weight: 900;
     margin-bottom: 20px;
@@ -659,8 +667,8 @@ footer {
 
 .footer-logo {
     height: 75px;
-    
 }
+
 
 
 
@@ -668,8 +676,9 @@ footer {
 /*Mobile*/
 
 @media screen and (max-width: 768px) {
-    body{
-        background-color: deeppink;
+ 
+    a {
+        margin: 0;
     }
         
     .hero-image{
@@ -677,15 +686,32 @@ footer {
         height: auto;
     }
 
+
+    header {
+        .logo-holder {
+            .logo {
+                margin: 0;
+            }
+        }
+    }
+
+    h1 {
+        margin-top: 50px;
+    }
+
+    .paragraph {
+        width: 75%;
+    }
+
     .factsection {
-        height: 700px;
+        height: 900px;
         display: flex;
         flex-direction: column;
         background-color: #F5F5F5;
     }
 
     .faktabillede{
-        width: 65%;
+        width: 75%;
         position: initial;
         margin: 0;
     }
@@ -693,7 +719,7 @@ footer {
     .tekstforanfaktabillede{
         z-index: 1;
         color: white;
-        width: auto;
+        width: 75%;
         background-color: #ed1c24;
         margin: 0;
         padding: 40px;
@@ -702,6 +728,16 @@ footer {
     #card{
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    #card li {
+        margin: 20px 0 20px 0;
+        width: 75%;
+    }
+
+    #card h1 {
+        margin: 0;
     }
 
     .section{
@@ -709,26 +745,16 @@ footer {
         flex-direction: column;
     }
 
+
+    .text-side {
+        margin: 0 0 30px 0;
+        width: 75%;
+    }
+
     .stortbillede{
         width: 100%; 
     }
 
-    .sponsorsection{
-    display: flex;
-    flex-direction: column;
-    }
-
-    .sponsorerlogo{
-        display: flex;
-        flex-direction: column;
-        width: 60%;
-        height: auto;
-        justify-content: center;
-        }
-    .footer-section{
-        display: flex;
-        flex-direction: column;
-    }
 
     .rutediv{
         display: flex;
@@ -747,6 +773,9 @@ footer {
     }
     .mobile-toggle{
         display: flex;
+        justify-content: center;
+        align-items: center;
+        
     }
     .hero-image {
         width: 100%;
@@ -767,6 +796,85 @@ footer {
     }
 
 
+    .formular {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .form-tilmeld {
+        margin: 20px 0 0 0;
+        width: 75%;
+    }
+
+    .form-tilmeld input {
+        width: inherit;
+    }
+
+    .sponsorsection{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sponsorerlogo{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        height: auto;
+        justify-content: center;
+        }
+
+
+    .footer-section{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .kontakt-ikoner {
+        order: 1;
+        padding: 50px 0 0 20px;
+        width: 80%;
+    }
+
+    .kontakt-ikoner img {
+        margin: 5px;
+        height: 20px;
+        width: 20px;
+    }
+
+    .kontakt-ikoner p {
+        font-size: 16px;
+    }
+
+    .sociale-medier-ikoner img {
+        height: 40px;
+        width: 40px;
+        margin: 5px;
+    }
+
+    .sociale-medier {
+        order: 3;
+        padding: 40px;
+    }
+
+    .sociale-medier h1 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 28px;
+    }
+
+    .footer-right {
+        order: 2;
+        justify-content: center;
+        padding: 50px 20px 5px 0;
+        width: 20%;
+    }
+
+    .footer-logo {
+        height: 50px;
+    }
 }
 
 @media screen and (min-width: 600px) {
