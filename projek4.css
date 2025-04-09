@@ -629,7 +629,7 @@ footer {
 
 }
 
-.følg-os {
+.foelg-os {
     font-style: italic;
     font-weight: 900;
     margin-bottom: 20px;
@@ -666,23 +666,30 @@ footer {
 
 .footer-logo {
     height: 75px;
-    
 }
-
-
-
 
 /*Mobile*/
 
 @media screen and (max-width: 768px) {
-    body{
-        background-color: deeppink;
-    }
+ 
         
     .hero-image{
         width: 100%;
         height: auto;
     }
+
+    .logo{ 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        height: 64px; 
+        width: 64px; 
+        border-radius: 50%; 
+        img{ 
+        width: 64px; 
+        height: auto; 
+        } 
+    } 
 
     .factsection {
         height: 700px;
@@ -754,6 +761,9 @@ footer {
     }
     .mobile-toggle{
         display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 13px;
     }
     .hero-image {
         width: 100%;
@@ -773,7 +783,49 @@ footer {
         transform: translate(-50%, -50%);
     }
 
+    .tilmeldingssektion {
+        background-color: #F5F5F5;
+        padding-right: 30px;
+    }
 
+    .formular {
+        display: flex;
+        flex-direction: column;
+        margin-right: 45px;
+    }
+    
+    
+    .form-tilmeld {
+        display: flex;
+        flex-direction: column;
+        margin: 100px 100px 100px 175px;
+    }
+
+    .button-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 65px;
+    }
+
+    .sponsorerlogo{
+        display:flex ;
+        justify-content: center;
+       margin-left: 120px;
+    }
+
+    .footer-logo {
+        height: 75px;
+        margin-right: 35px;
+    }
+
+    .foelg-os{
+        margin-right: 130px;
+    }
+
+    .sociale-medier-ikoner {
+       margin-right: 100px;
+    }
 }
 
 @media screen and (min-width: 600px) {
