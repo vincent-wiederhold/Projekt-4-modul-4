@@ -14,7 +14,7 @@ if (cardItems.length < 0 ) {
         cardContainer.innerHTML += '<li><h1 class="cardheader">' + cardItems[i].h1 + '</h1><p class="cardbrødtekst">' + cardItems[i].brødtekst + '</p></li>';
     }
 
-    console.log ("loading af cards velykket")
+    console.log ("Loading af cards velykket")
 }
 
 function fejlicardsLoading(){
