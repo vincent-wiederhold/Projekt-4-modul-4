@@ -518,6 +518,11 @@ a.button {
 .alignbutton {
     display: flex;
     justify-content: center;
+    margin-top: 200px;
+}
+
+#taktekst{
+    margin-top: 50px;
 }
 
 
