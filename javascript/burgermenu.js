@@ -4,7 +4,7 @@ const menuItems = [
     { name: "Praktisk", link: "#praktisk"},
     { name: "Rute", link: "#rute"},
     { name: "Sponsorer", link: "#sponsorer"},
-    { name: "Om SIND", link: "https://sind.dk/om-sind"},
+    { name: "Sind.dk", link: "https://sind.dk/om-sind"},
     { name: "Tilmelding", link: "#tilmelding"}
 ];
 
