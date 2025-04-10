@@ -40,7 +40,7 @@ function reportWindowSize() {
     }
 }
 
-window.onresize = reportWindowSize;
+window.onresize = reportWindowSize; /*Lånt kode fra: https://developer.mozilla.org/en-US/docs/Web/API/Window/resize_event*/
 
 
 window.addEventListener('click', function(klik) {

@@ -50,6 +50,7 @@ header{
     position: fixed;
     z-index: 3;
     background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px 0px #000000;
     
     .logo-holder{ 
         display:flex;
@@ -238,7 +239,7 @@ p{
 .paragraph {
     text-align: left;
     width: 50%;
-    margin: 10px auto 20px auto;
+    margin: 10px auto;
 }
 
 
@@ -336,7 +337,11 @@ p{
 
 }
 
-
+.kortudskrivelse{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /*Rute*/
 
@@ -668,38 +673,49 @@ footer {
     height: 75px;
 }
 
+
+
+
+
 /*Mobile*/
 
 @media screen and (max-width: 768px) {
  
+    a {
+        margin: 0;
+    }
         
     .hero-image{
         width: 100%;
         height: auto;
     }
 
-    .logo{ 
-        display: flex; 
-        align-items: center; 
-        justify-content: center; 
-        height: 64px; 
-        width: 64px; 
-        border-radius: 50%; 
-        img{ 
-        width: 64px; 
-        height: auto; 
-        } 
-    } 
+
+    header {
+        .logo-holder {
+            .logo {
+                margin: 0;
+            }
+        }
+    }
+
+    h1 {
+        margin-top: 50px;
+    }
+
+    .paragraph {
+        width: 75%;
+    }
 
     .factsection {
-        height: 700px;
+        height: 900px;
         display: flex;
         flex-direction: column;
         background-color: #F5F5F5;
     }
 
     .faktabillede{
-        width: 65%;
+        width: 75%;
         position: initial;
         margin: 0;
     }
@@ -707,7 +723,7 @@ footer {
     .tekstforanfaktabillede{
         z-index: 1;
         color: white;
-        width: auto;
+        width: 75%;
         background-color: #ed1c24;
         margin: 0;
         padding: 40px;
@@ -716,6 +732,23 @@ footer {
     #card{
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    #card li {
+        margin: 20px 0 20px 0;
+        width: 75%;
+    }
+
+    #card h1 {
+        margin: 0;
+    }
+
+    .kortudskrivelse{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .section{
@@ -723,26 +756,16 @@ footer {
         flex-direction: column;
     }
 
+
+    .text-side {
+        margin: 0 0 30px 0;
+        width: 75%;
+    }
+
     .stortbillede{
         width: 100%; 
     }
 
-    .sponsorsection{
-    display: flex;
-    flex-direction: column;
-    }
-
-    .sponsorerlogo{
-        display: flex;
-        flex-direction: column;
-        width: 60%;
-        height: auto;
-        justify-content: center;
-        }
-    .footer-section{
-        display: flex;
-        flex-direction: column;
-    }
 
     .rutediv{
         display: flex;
@@ -763,7 +786,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 13px;
+        
     }
     .hero-image {
         width: 100%;
@@ -783,48 +806,85 @@ footer {
         transform: translate(-50%, -50%);
     }
 
-    .tilmeldingssektion {
-        background-color: #F5F5F5;
-        padding-right: 30px;
-    }
 
     .formular {
         display: flex;
         flex-direction: column;
-        margin-right: 45px;
     }
     
     
     .form-tilmeld {
-        display: flex;
-        flex-direction: column;
-        margin: 100px 100px 100px 175px;
+        margin: 20px 0 0 0;
+        width: 75%;
     }
 
-    .button-form {
+    .form-tilmeld input {
+        width: inherit;
+    }
+
+    .sponsorsection{
         display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 65px;
+        flex-direction: column;
     }
 
     .sponsorerlogo{
-        display:flex ;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        height: auto;
         justify-content: center;
-       margin-left: 120px;
+        }
+
+
+    .footer-section{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .kontakt-ikoner {
+        order: 1;
+        padding: 50px 0 0 20px;
+        width: 80%;
+    }
+
+    .kontakt-ikoner img {
+        margin: 5px;
+        height: 20px;
+        width: 20px;
+    }
+
+    .kontakt-ikoner p {
+        font-size: 16px;
+    }
+
+    .sociale-medier-ikoner img {
+        height: 40px;
+        width: 40px;
+        margin: 5px;
+    }
+
+    .sociale-medier {
+        order: 3;
+        padding: 40px;
+    }
+
+    .sociale-medier h1 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 28px;
+    }
+
+    .footer-right {
+        order: 2;
+        justify-content: center;
+        padding: 50px 20px 5px 0;
+        width: 20%;
     }
 
     .footer-logo {
-        height: 75px;
-        margin-right: 35px;
-    }
-
-    .foelg-os{
-        margin-right: 130px;
-    }
-
-    .sociale-medier-ikoner {
-       margin-right: 100px;
+        height: 50px;
     }
 }
 
